@@ -11,15 +11,19 @@ Languages used are-
 
 ## Login Page
 
-In this page player would be given there email and password.By this they have to login to the game.
+In this page player would be given there email and password.By this they have to login in the game.
 
 ## Home Page
 
-We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the Laravel [Patreon page](https://patreon.com/taylorotwell).
+This page contains the treasure hunt game. Here we have score part on left top of the screen which display the score of the player during playing the game.
 
-### Premium Partners
+You have to click on the button named start the game and the game would be start.
 
-- **[Vehikl](https://vehikl.com/)**
+After the game begin , you have to start clicking on the boxes given  there and see the image present inside  , to clearly view the image click on it and image will open on full screen with clues and submit button with input tag to check the answer of it.
+
+### Rules
+
+- **two option**
 - **[Tighten Co.](https://tighten.co)**
 - **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
 - **[64 Robots](https://64robots.com)**
