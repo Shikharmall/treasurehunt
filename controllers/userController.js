@@ -45,7 +45,7 @@ const loadHome = async(req,res)=>{
 
 const loadrankdashboard = async(req,res)=>{
     try {
-        const usersData = await User.find();
+        const usersData = await User.find().sort({score : -1});
         const usersData1 = await User.find().count();
         res.render('rankdashboard',{users:usersData,users1:usersData1});
     } catch (error) {
