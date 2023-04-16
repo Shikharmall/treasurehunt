@@ -36,4 +36,4 @@ After the game begin , you have to start clicking on the boxes given  there and 
 This page contains the global rank of the players which is ranked according to there score earned by playing this game.After each game each player score will be added to the previous score and according to that score players will be ranked.
 
 
-**Note: As this is dummy project so the answer of the images will be shikhar1 , shikhar2 , shikhar3 , shikhar4 , shikhar5 , shikhar6 respectively**
+**Note: As this is dummy project so the answer of the images will be shikhar1 , shikhar2 , shikhar3 , shikhar4 , shikhar5 , shikhar6 respectively.**
