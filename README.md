@@ -11,9 +11,7 @@ Languages used are-
 
 ## Login Page
 
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework.
-
-If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains over 1500 video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
+In this page player would be given there email and password.By this they have to login to the game.
 
 ## Home Page
 
@@ -37,4 +35,4 @@ We would like to extend our thanks to the following sponsors for funding Laravel
 
 ## Global Rank Page
 
-This page contains the global rank of the players and rank according to there score earned by playing this game.
+This page contains the global rank of the players and rank according to there score earned by playing this game.After each game each player score will be added to the previous score and according to that score players will be rank.
