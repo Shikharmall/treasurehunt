@@ -1,6 +1,6 @@
 ## About Project
 
-This project is based on game called Treasure Hunt. The Framework used in this project is NodeJS (framework of javascript) and the database used in this project is MongoDB.This project is made from scratch . 
+This project is based on game called Treasure Hunt where players finds the answer with the help of images and clue. The Framework used in this project is NodeJS (framework of javascript) and the database used in this project is MongoDB.This project is made from scratch . 
 
 Languages used are-
 - HTML
@@ -8,7 +8,6 @@ Languages used are-
 - Javascript
 - NodeJS
 
-Laravel is accessible, powerful, and provides tools required for large, robust applications.
 
 ## Login Page
 
