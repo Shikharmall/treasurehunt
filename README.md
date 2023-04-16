@@ -35,4 +35,4 @@ We would like to extend our thanks to the following sponsors for funding Laravel
 
 ## Global Rank Page
 
-This page contains the global rank of the players and rank according to there score earned by playing this game.After each game each player score will be added to the previous score and according to that score players will be rank.
+This page contains the global rank of the players and rank according to there score earned by playing this game.After each game each player score will be added to the previous score and according to that score players will be ranked.
