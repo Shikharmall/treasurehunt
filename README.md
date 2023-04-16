@@ -23,19 +23,13 @@ After the game begin , you have to start clicking on the boxes given  there and 
 
 ### Rules
 
-- **You will be provided five clues for each image**
-- **You will be given two chance to give answer**
-- **You will be awarded 100 points for each correct answer**
-- **After the game will be ended the points will be added to previous score and global rank will be decided through it**
-- **[Cubet Techno Labs](https://cubettech.com)**
-- **[Cyber-Duck](https://cyber-duck.co.uk)**
-- **[Many](https://www.many.co.uk)**
-- **[Webdock, Fast VPS Hosting](https://www.webdock.io/en)**
-- **[DevSquad](https://devsquad.com)**
-- **[Curotec](https://www.curotec.com/services/technologies/laravel/)**
-- **[OP.GG](https://op.gg)**
-- **[WebReinvent](https://webreinvent.com/?utm_source=laravel&utm_medium=github&utm_campaign=patreon-sponsors)**
-- **[Lendio](https://lendio.com)**
+- **You will be provided five clues for each image.**
+- **You will be given two chance for each answer.**
+- **You will be awarded 100 points for each correct answer.**
+- **After the game will be ended the points will be added to previous score and global rank will be decided through it.**
+- **If you refresh page in mid of the game , you will be shown alert of reload , you can cancel or reload it.**
+- **Once the game is reloaded you can start game again.**
+
 
 ## Global Rank Page
 
