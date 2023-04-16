@@ -1,5 +1,7 @@
 const mongoose = require("mongoose");
-mongoose.connect("mongodb://127.0.0.1:27017/treasurehunt");
+//mongoose.connect("mongodb://127.0.0.1:27017/treasurehunt");
+
+mongoose.connect("mongodb+srv://shmall212020:treasurehuntgame@treasurehuntgame.y0ags4n.mongodb.net/?retryWrites=true&w=majority");
 
 
 
