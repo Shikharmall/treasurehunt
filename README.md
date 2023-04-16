@@ -23,10 +23,10 @@ After the game begin , you have to start clicking on the boxes given  there and 
 
 ### Rules
 
-- **two option**
-- **[Tighten Co.](https://tighten.co)**
-- **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
-- **[64 Robots](https://64robots.com)**
+- **You will be provided five clues for each image**
+- **You will be given two chance to give answer**
+- **You will be awarded 100 points for each correct answer**
+- **After the game will be ended the points will be added to previous score and global rank will be decided through it**
 - **[Cubet Techno Labs](https://cubettech.com)**
 - **[Cyber-Duck](https://cyber-duck.co.uk)**
 - **[Many](https://www.many.co.uk)**
