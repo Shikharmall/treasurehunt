@@ -11,6 +11,8 @@ const loginLoad = async(req,res)=>{
     }
 }
 
+
+//verify login
 const verifyLogin = async(req,res)=>{
     try {
         const email = req.body.email;
@@ -34,6 +36,8 @@ const verifyLogin = async(req,res)=>{
     }
 }
 
+
+// view home page
 const loadHome = async(req,res)=>{
     try {
         var aa = req.session.user_id;
@@ -43,6 +47,8 @@ const loadHome = async(req,res)=>{
     }
 }
 
+
+//view global rank page
 const loadrankdashboard = async(req,res)=>{
     try {
         const usersData = await User.find().sort({score : -1});
@@ -53,6 +59,8 @@ const loadrankdashboard = async(req,res)=>{
     }
 }
 
+
+//logout
 const userLogout = async(req,res)=>{
     try {
         req.session.destroy();
@@ -62,6 +70,8 @@ const userLogout = async(req,res)=>{
     }
 }
 
+
+//edit profile's score
 const editProfile = async(req,res)=>{
     try {
         
