@@ -1,0 +1,311 @@
+body{
+    margin: 0;
+}
+.container{
+    display: flex;
+}
+
+.box11{
+    flex-grow: 1;
+}
+.box2{
+    flex-grow: 8;
+}
+.box3{
+    flex-grow: 1;
+    position: relative;
+} 
+
+.box11 input{
+    width: 100px;
+    padding: 10px;
+}
+
+.box2 h1{
+    margin: 0;
+    text-align: center;
+    font-size: 50px;
+    color: #082c74;
+}
+
+.box3 img{
+    float: right;
+} 
+
+.box3 img:hover{
+    cursor: pointer;
+} 
+
+#subbox3{
+    position: absolute;
+    top: 50%;
+    left: -15%;
+    padding: 10%;
+    box-shadow: 0.75px 0.75px 4px 0.75px #949494;  
+    border-radius: 2px;
+    z-index: 10;
+    background-color: white;
+}
+.show{
+    display: none;
+}
+
+
+#subbox3 a{
+    padding: 2px;
+}
+
+.gamestarted{
+    position: relative;
+    padding-top:    16px;
+    padding-bottom: 16px;
+}
+
+.gamestarting{
+ position: absolute;
+ top: 0%;
+ /*top: 50%;
+ right: 50%;*/
+ width: 100%;
+ height: 100%;
+ background-color: rgba(0, 0, 0, 0.5);
+}
+
+.gamestarting button{
+ background-color: #00b9f5;
+ color: white;
+ border: none;
+ padding: 15px;
+ margin-top: 20%;
+ font-size: 25px;
+}
+
+.gamestarting button:hover{
+ cursor: pointer;
+}
+
+.gamestarting h2{
+ color: #00b9f5;
+}
+
+
+.box1{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.subbox1,
+.subbox2,
+.subbox3,
+.subbox4,
+.subbox5,
+.subbox6{
+    background-color: #082c74;
+    width:  430px;
+    height: 270px;
+    margin: 3px;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #082c74;;
+}
+
+.subbox1:hover,
+.subbox2:hover,
+.subbox3:hover,
+.subbox4:hover,
+.subbox5:hover,
+.subbox6:hover{
+    cursor: pointer;
+}
+
+
+#hquestion1 h1, 
+#hquestion2 h1,
+#hquestion3 h1, 
+#hquestion4 h1,
+#hquestion5 h1, 
+#hquestion6 h1{
+   text-align: center;
+}
+
+#question1 button, 
+#question2 button,
+#question3 button, 
+#question4 button,
+#question5 button, 
+#question6 button{
+   width: 150px;
+   padding: 5px;
+   margin: 2px;
+   background-color: #00b9f5;
+   color: white;
+   border: none;
+   border-radius: 3px;
+}
+
+#question1 input, 
+#question2 input,
+#question3 input, 
+#question4 input,
+#question5 input, 
+#question6 input{
+   padding: 5px;
+   border: none;
+   border-radius: 3px;
+}
+
+#question1 input:focus, 
+#question2 input:focus,
+#question3 input:focus, 
+#question4 input:focus,
+#question5 input:focus, 
+#question6 input:focus{
+    outline: none;
+}
+
+#question1,
+#question2,
+#question3,
+#question4,
+#question5,
+#question6{
+    display: none;
+}
+
+#question1 p,
+#question2 p,
+#question3 p,
+#question4 p,
+#question5 p,
+#question6 p{
+    color: #00b9f5;
+}
+
+.finishgame button{
+    color: white;
+    background-color: red;
+    border: none;
+    padding: 10px;
+    margin-left: 5px;
+}
+
+#opencart1{
+    display: none;
+    position: fixed;
+    z-index: 8;
+    right: 0;
+    top: 0;
+    width:  100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgb(0, 0, 0);
+    background-color: rgba(6, 0, 0, 0.5);
+    background-color: rgba(5, 3, 3, 0.5);
+    padding: 8px;
+}
+
+#opencart2{
+    display: none;
+    position: fixed;
+    z-index: 8;
+    right: 0;
+    top: 0;
+    width:  100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgb(0, 0, 0);
+    background-color: rgba(3, 0, 0, 0.5);
+    padding: 8px;
+}
+
+#opencart3{
+    display: none;
+    position: fixed;
+    z-index: 8;
+    right: 0;
+    top: 0;
+    width:  100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgb(0, 0, 0);
+    background-color: rgba(3, 0, 0, 0.5);
+    padding: 8px;
+}
+
+#opencart4{
+    display: none;
+    position: fixed;
+    z-index: 8;
+    right: 0;
+    top: 0;
+    width:  100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgb(0, 0, 0);
+    background-color: rgba(3, 0, 0, 0.5);
+    padding: 8px;
+}
+
+#opencart5{
+    display: none;
+    position: fixed;
+    z-index: 8;
+    right: 0;
+    top: 0;
+    width:  100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgb(0, 0, 0);
+    background-color: rgba(3, 0, 0, 0.5);
+    padding: 8px;
+}
+
+#opencart6{
+    display: none;
+    position: fixed;
+    z-index: 8;
+    right: 0;
+    top: 0;
+    width:  100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgb(0, 0, 0);
+    background-color: rgba(3, 0, 0, 0.5);
+    padding: 8px;
+}
+
+.imgcont{
+    position: relative;
+}
+
+.imgcont img{
+    filter: blur(3px);
+    -webkit-filter: blur(3px);
+}
+
+
+
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+
+.clues{
+    display: flex;
+    justify-content: center;
+}
+
+.subclues{
+    /*background-color: #00b9f5;*/
+    width: 50%;
+}
+.subclues p{
+   font-size: 18px;
+   color: white;
+   font-weight: bolder;
+}
