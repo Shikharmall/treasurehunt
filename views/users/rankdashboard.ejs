@@ -1,0 +1,78 @@
+
+    <link rel="stylesheet" href="../css/rankdashboard.css">
+    <% include('../layouts/header.ejs') %>
+    
+        <!--heading-->
+            <div class="container">
+                <div class="box1"></div>
+                <div class="box2"> <h1>Global Rank Page</h1> </div>
+                <div class="box3">
+                    <img src="../image/user-logo.png" alt="user" style="width: 40px;" onclick="myfunc()">
+                    <div id="subbox3" class="show">
+                        <img src="../image/user-logo.png" alt="user" style="width: 100px;"> <br>
+    
+                        <center>
+                            <a href="/home">Home</a> <br>
+                            <a href="/logout">Logout</a>
+                        </center>
+                    </div>
+                </div>
+            </div>
+        <!--heading-->
+
+        <br><br>
+        
+        <!--main body-->
+        <div>
+          <center>
+            <table >
+                <tr>
+                  <th>Global Rank</th>
+                  <th>Username</th>
+                  <th>Game ID</th>
+                  <th>Score</th>
+                </tr>
+
+                <% 
+                    if(users1 > 0){
+                        let a =0;
+                        for(let i=0;i<users1;i++){
+                            a++;
+
+                %>
+
+                        <tr>
+                            <td><%= a%></td>
+                            <td><%= users[i].name %></td>
+                            <td><%= users[i].treasure_hunt_id %></td>
+                            <td><%= users[i].score %></td>
+                        </tr>
+                    
+
+                <%  
+                        } 
+
+                    }
+                    else{ 
+                %>
+                    <tr>
+                      <td>Users not found.</td>
+                    </tr>
+                <%
+                    }
+                %>
+            </table>
+          </center>
+        </div>
+        <!--main body-->    
+    
+     
+    
+    <% include('../layouts/footer.ejs') %>
+    
+    <script>
+        function myfunc(){
+            document.getElementById("subbox3").classList.toggle("show");
+        }
+        
+    </script>
