@@ -1,7 +1,3 @@
-<p align="center">
-# Treasure Hunt Game
-</p>
-
 
 ## About Project
 
