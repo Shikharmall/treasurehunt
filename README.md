@@ -1,5 +1,5 @@
 <p align="center">
-Treasure Hunt Game
+# Treasure Hunt Game
 </p>
 
 
